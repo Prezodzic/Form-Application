@@ -5,8 +5,10 @@ This project is a Windows Forms application developed using Visual Studio. It in
 ## Project Contents
 - **Main Form**: Located in the `Form1.cs` file. Manages the main interface and login operations of the application.
 - **Modules**:
-  - Student details interface and operations: `ogrenci_detay.cs`
-  - Teacher details interface and operations: `Öğretmen_detay.cs`
+  - **Student Details**: Interface and operations implemented in `ogrenci_detay.cs`.
+  - **Teacher Details**: Interface and operations implemented in `Öğretmen_detay.cs`.
+    - The `Öğretmen_detay` page is accessed with the code **"1111"**.
+    - To access the `ogrenci_detay` page, any other code except **"1111"** is used.
 - **Program.cs**: The entry point of the application.
 
 ## Running the Application
